@@ -21,7 +21,8 @@ PRODUCT_SOONG_NAMESPACES += \
 # Configs
 PRODUCT_COPY_FILES += \
     vendor/oneplus/ir/proprietary/product/etc/asl/com.oplus.consumerIRApp-safetyLabel.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/asl/com.oplus.consumerIRApp-safetyLabel.xml \
-    vendor/oneplus/ir/proprietary/product/etc/sysconfig/oplus-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/oplus-hiddenapi-package-allowlist.xml
+    vendor/oneplus/ir/proprietary/product/etc/sysconfig/oplus-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/oplus-hiddenapi-package-allowlist.xml \
+    vendor/oneplus/ir/proprietary/product/etc/sysconfig/preinstalled-packages-platform-oplus-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-oplus-product.xml
 
 # ConsumerIR
 PRODUCT_PACKAGES += \
