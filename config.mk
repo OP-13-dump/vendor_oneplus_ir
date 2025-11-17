@@ -26,4 +26,5 @@ PRODUCT_COPY_FILES += \
 
 # ConsumerIR
 PRODUCT_PACKAGES += \
-    ConsumerIRApp
+    ConsumerIRApp \
+    ConsumerIRAppTarget
